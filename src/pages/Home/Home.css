@@ -1,0 +1,77 @@
+.home-wrapper {
+    /* width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: block;
+    text-align: center; */
+
+    /* width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+
+    width: 100%;
+    align-items: center;
+}
+
+.home-content {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 20%;
+    height: auto;
+    width: 280px;
+    /* insurance */
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.home-text {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+
+
+.react-pdf__Page__canvas {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+
+}
+
+.react-pdf__Page__canvas {
+    width: 600px;
+    height: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-wrapper {
+        width: 100%;
+    }
+
+    .home-text {
+        max-width: 400px;
+
+    }
+
+    .pdf {
+        max-width: 300px;
+    }
+
+    .react-pdf__Page__canvas {
+        max-width: 390px;
+        max-height: 550px;
+    }
+}

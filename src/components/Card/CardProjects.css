@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: rgb(27, 27, 27);
+  }
+  
+
+
+  .container-card-project {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin: auto;
+    flex-wrap: nowrap;
+  }
+  
+  .card-project-1 {
+    background: rgb(210, 210, 210);
+    color: rgb(27, 27, 27);
+    width: 500px;
+    height: 720px;
+    margin: 10px;
+    border-radius: 15px;
+    padding-bottom: 2%;
+  }
+
+  .card-project-2 {
+    background: rgb(210, 210, 210);
+    color: rgb(27, 27, 27);
+    width: 500px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 15px;
+    padding-bottom: 2%;
+  }
+
+  .project-button {
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 4px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .card-image-project {
+    background-color: white;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .li-wrapper-project {
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
+  }
+  
+  .li-wrapper-project li::before  {content: "•"; color: #333;
+    display: inline-block; width: 1em;
+    margin-left: 0em}
+
+  .projectImg-1 {
+    background-image: url('../../images/s1.png');
+  }
+  
+
+  
+  .card p {
+    padding: 10px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .container-card-project {
+      /* background-color: #ffedbf; */
+      width: 390px;
+      height: 750px;
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+
+    .card-project-1 {
+      width: 380px;
+      height: 750px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .card-project-2 {
+      width: 390px;
+      height: 750px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .li-wrapper-project {
+      text-align: left;
+      margin-top: 0rem;
+      margin-left: 1rem;
+      margin-right: 0rem;
+      line-height: 2rem;
+      font-size: 1rem;
+    }
+  }
