@@ -20,7 +20,7 @@ function Navbar() {
       <div className="wrapper">
         <div className="sidebar_left">
           <Link to="/">
-            <h2>Jongwan Kim</h2>
+            <h2>Name(removed)</h2>
           </Link>
           <ul>
             <li>
